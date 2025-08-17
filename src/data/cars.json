@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Audi A1 S-Line",
+    "pricePerDay": 45,
+    "imgKey": "audi",
+    "imgShow": "audiShow",
+    "specs": {
+      "Model": "Audi",
+      "Mark": "A1",
+      "Year": "2012",
+      "Doors": "4/5",
+      "AC": "Yes",
+      "Transmission": "Manual",
+      "Fuel": "Gasoline"
+    }
+  },
+  {
+    "name": "VW Golf 6",
+    "pricePerDay": 37,
+    "imgKey": "golf6",
+    "imgShow": "golf6Show",
+    "specs": {
+      "Model": "Volkswagen",
+      "Mark": "Golf 6",
+      "Year": "2008",
+      "Doors": "4/5",
+      "AC": "Yes",
+      "Transmission": "Manual",
+      "Fuel": "Gasoline"
+    }
+  },
+  {
+    "name": "Toyota Camry",
+    "pricePerDay": 30,
+    "imgKey": "camry",
+    "imgShow": "toyotaShow",
+    "specs": {
+      "Model": "Toyota",
+      "Mark": "Camry",
+      "Year": "2010",
+      "Doors": "4/5",
+      "AC": "Yes",
+      "Transmission": "Automatic",
+      "Fuel": "Hybrid"
+    }
+  },
+  {
+    "name": "BMW 320 ModernLine",
+    "pricePerDay": 50,
+    "imgKey": "bmw",
+    "imgShow": "bmwShow",
+    "specs": {
+      "Model": "BMW",
+      "Mark": "320",
+      "Year": "2012",
+      "Doors": "4/5",
+      "AC": "Yes",
+      "Transmission": "Manual",
+      "Fuel": "Diesel"
+    }
+  },
+  {
+    "name": "Mercedes-Benz GLK",
+    "pricePerDay": 52,
+    "imgKey": "benz",
+    "imgShow": "benzShow",
+    "specs": {
+      "Model": "Mercedes",
+      "Mark": "GLK",
+      "Year": "2009",
+      "Doors": "4/5",
+      "AC": "Yes",
+      "Transmission": "Automatic",
+      "Fuel": "Diesel"
+    }
+  },
+  {
+    "name": "VW Passat CC",
+    "pricePerDay": 25,
+    "imgKey": "passat",
+    "imgShow": "passatShow",
+    "specs": {
+      "Model": "Volkswagen",
+      "Mark": "Passat CC",
+      "Year": "2008",
+      "Doors": "4/5",
+      "AC": "Yes",
+      "Transmission": "Manual",
+      "Fuel": "Gasoline"
+    }
+  }
+]

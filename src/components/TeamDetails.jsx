@@ -1,0 +1,44 @@
+import team from '../data/team.json';
+import dexter from '../images/team/dexter.png';
+import masuka from '../images/team/masuka.png';
+import debra from '../images/team/deb.png';
+import batista from '../images/team/laPassion.png';
+import doakes from '../images/team/doakes.png';
+import rita from '../images/team/rita.png';
+
+const imageMap = {
+  dexter,
+  masuka,
+  debra,
+  batista,
+  doakes,
+  rita,
+};
+
+const TeamDetails = () => {
+  return (
+    <div className=" mt-25 cont">
+      <div className="grid  md:grid-cols-3 place-items-center gap-10 ">
+        {team.map((member) => (
+          <div
+            key={member.id}
+            className="bg-surface shadowPrim  rounded-[16px]
+             border border-[#b0ada958] w-[300px] text-center "
+          >
+            <img
+              src={imageMap[member.image]}
+              alt={member.name}
+              className="rounded-t-[16px] w-full "
+            />
+            <div className="py-7">
+              <h2 className="Normal font-semibold mb-2">{member.name}</h2>
+              <p className="text-[#8f8e8b] ">{member.position}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default TeamDetails;

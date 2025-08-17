@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "image": "dexter",
+    "name": "Dexter",
+    "position": "Business Owner"
+  },
+  {
+    "id": 2,
+    "image": "masuka",
+    "name": "Masuka",
+    "position": "Salesman"
+  },
+  {
+    "id": 3,
+    "image": "debra",
+    "name": "Debra",
+    "position": "Manager"
+  },
+  {
+    "id": 4,
+    "image": "batista",
+    "name": "Angel",
+    "position": "Car Detailer"
+  },
+  {
+    "id": 5,
+    "image": "doakes",
+    "name": "Doakes",
+    "position": "Mechanic"
+  },
+  {
+    "id": 6,
+    "image": "rita",
+    "name": "Rita",
+    "position": "Photographer"
+  }
+]
