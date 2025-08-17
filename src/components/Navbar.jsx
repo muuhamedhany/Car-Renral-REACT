@@ -1,10 +1,8 @@
 import { useState } from 'react';
 import logo from '../images/logo/logo.png';
-import { TfiAlignJustify } from 'react-icons/tfi';
-import { TfiClose } from 'react-icons/tfi';
 import { NavLink, Link } from 'react-router-dom';
-import { HiMiniBars3BottomRight } from "react-icons/hi2";
-import { CgClose } from "react-icons/cg";
+import { HiMiniBars3BottomRight } from 'react-icons/hi2';
+import { CgClose } from 'react-icons/cg';
 
 const links = [
   {
@@ -99,13 +97,13 @@ const Navbar = () => {
           >
             {links.map((link) => {
               return (
-                <a
+                <Link
                   key={link.id}
-                  href={link.href}
+                  to={link.href}
                   className="primary-text border-b-1"
                 >
                   {link.name}
-                </a>
+                </Link>
               );
             })}
           </div>
