@@ -46,7 +46,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="blur-background p-2 w-full">
+      <nav className="blur-background p-2 md:pt-2 pt-5 w-full">
         <div className=" cont  w-full">
           <div className="flex items-center justify-between h-16">
             <div className="flex-shrink-0">

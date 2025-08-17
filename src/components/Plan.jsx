@@ -18,7 +18,7 @@ const Plan = () => {
             <div className="flex flex-col justify-center items-center gap-5 mt-15">
               <img src={img1} />
               <h4 className="Heading2 font-bold">Select Car</h4>
-              <p className="text-[#b0ada9] Paragraph w-100 md:w-full">
+              <p className="text-[#b0ada9] Paragraph w-70 md:w-full">
                 We offers a big range of vehicles for all your driving needs. We
                 have the perfect car to meet your needs
               </p>
@@ -27,7 +27,7 @@ const Plan = () => {
             <div className="flex flex-col justify-center items-center gap-5 mt-15">
               <img src={img2} />
               <h4 className="Heading2 font-bold">Contact Operator</h4>
-              <p className="text-[#b0ada9] Paragraph w-100 md:w-full">
+              <p className="text-[#b0ada9] Paragraph w-70 md:w-full">
                 Our knowledgeable and friendly operators are always ready to
                 help with any questions or concerns
               </p>
@@ -36,7 +36,7 @@ const Plan = () => {
             <div className="flex flex-col justify-center items-center gap-5 mt-15">
               <img src={img3} />
               <h4 className="Heading2 font-bold">Let's Drive</h4>
-              <p className="text-[#b0ada9] Paragraph w-100 md:w-full">
+              <p className="text-[#b0ada9] Paragraph w-70 md:w-full">
                 Whether you're hitting the open road, we've got you covered with
                 our wide range of cars
               </p>

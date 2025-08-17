@@ -6,7 +6,7 @@ import BannerAll from '../components/bannerAll'
 const Team = () => {
   return (
     <>
-      <HeroDefault name="Our Team" />
+      <HeroDefault name="Team" />
       <div>
         <TeamDetails />
 
