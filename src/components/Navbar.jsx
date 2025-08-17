@@ -93,7 +93,7 @@ const Navbar = () => {
           <div
             className={`${isOpen ? 'flex ' : 'hidden'} md:hidden
              mt-10 absolute flex-col  text-start gap-7 text-[1.2rem]
-             blur-background-mobile py-10 pr-30 pl-10 rounded-2xl`}
+             bg-surface border border-[#b0ada958] py-10 pr-30 pl-10 rounded-2xl`}
           >
             {links.map((link) => {
               return (
