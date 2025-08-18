@@ -8,7 +8,6 @@ import Choose from '../components/Choose';
 import Feedback from '../components/Feedback';
 import FAQ from '../components/FAQ';
 import AppStore from '../components/AppStore';
-import Footer from '../components/Footer';
 
 const Home = () => {
   return (
