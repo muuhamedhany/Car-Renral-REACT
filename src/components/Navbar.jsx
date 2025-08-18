@@ -46,9 +46,9 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="blur-background p-2 md:pt-2 pt-5 w-full">
-        <div className=" cont  w-full">
-          <div className="flex items-center justify-between h-16">
+      <nav className="blur-background p-2 md:pt-2 pt-5 w-full ">
+        <div className=" cont  w-full ">
+          <div className="flex  items-center justify-between h-16">
             <div className="flex-shrink-0">
               <Link to="/">
                 <img
@@ -91,9 +91,9 @@ const Navbar = () => {
             </div>
           </div>
           <div
-            className={`${isOpen ? 'flex ' : 'hidden'} md:hidden
-             mt-10 absolute flex-col  text-start gap-7 text-[1.2rem]
-             bg-surface border border-[#b0ada958] py-10 pr-30 pl-10 rounded-2xl`}
+            className={`${isOpen ? 'flex ' : 'hidden'}  md:hidden
+               flex-col text-start gap-7 Normal
+               bg-surface font-semibold p-10 `}
           >
             {links.map((link) => {
               return (

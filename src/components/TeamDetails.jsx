@@ -21,7 +21,7 @@ const imageMap = {
 const TeamDetails = () => {
   return (
     <div className=" mt-25 cont">
-      <div className="grid  md:grid-cols-3 place-items-center gap-10 ">
+      <div className="grid md:grid-cols-3 place-items-center gap-10">
         {team.map((member) => (
           <div
             key={member.id}
@@ -31,7 +31,7 @@ const TeamDetails = () => {
             <LazyLoadImage
               src={imageMap[member.image]}
               alt={member.name}
-              className="rounded-t-[16px] w-full "
+              className="rounded-t-[16px] w-full"
               effect="blur"
             />
 
