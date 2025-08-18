@@ -1,11 +1,15 @@
 import cars from '../data/cars.json';
 
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
 import audiShow from '../images/modelsShow/audiShow.png';
 import benzShow from '../images/modelsShow/benzShow.png';
 import bmwShow from '../images/modelsShow/bmwShow.png';
 import golf6Show from '../images/modelsShow/golf6Show.png';
 import passatShow from '../images/modelsShow/passatShow.png';
 import toyotaShow from '../images/modelsShow/toyotaShow.png';
+
 
 const imageMap = {
   audiShow,
@@ -26,10 +30,11 @@ const VehicleModels = () => {
               className="bg-surface shadowPrim rounded-[16px]
              border-[1px] border-[#b0ada958]"
             >
-              <img
-                className=" rounded-t-[16px] w-full"
+              <LazyLoadImage
                 src={imageMap[car.imgShow]}
+                className=" rounded-t-[16px] w-full"
                 alt={car.name}
+                effect="blur"
               />
 
               <div className="md:px-10 px-7 flex flex-col">

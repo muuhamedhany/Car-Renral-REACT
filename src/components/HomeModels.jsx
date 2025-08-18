@@ -7,6 +7,9 @@ import benz from '../images/models/benz.png';
 import passat from '../images/models/passat.png';
 import cars from '../data/cars.json';
 
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
 const imageByKey = {
   audi,
   golf6,
@@ -64,10 +67,11 @@ const HomeModels = () => {
 
           {/* Middle – preview image */}
           <div className="flex-1 flex items-center justify-center ">
-            <img
+            <LazyLoadImage
               src={active.img}
               alt={active.name}
               className="p-6 min-w-[400px] max-h-[300px] "
+              effect="blur"
             />
           </div>
 
@@ -93,7 +97,9 @@ const HomeModels = () => {
                     i < Object.keys(active.specs).length - 1 ? 'border-b-2' : ''
                   } border-[#b0ada9]`}
                 >
-                  <h2 className="md:px-10 border-r-2 border-[#b0ada9]">{label}</h2>
+                  <h2 className="md:px-10 border-r-2 border-[#b0ada9]">
+                    {label}
+                  </h2>
                   <h2 className="px-10">{value}</h2>
                 </div>
               ))}

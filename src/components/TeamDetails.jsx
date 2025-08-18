@@ -6,6 +6,9 @@ import batista from '../images/team/laPassion.png';
 import doakes from '../images/team/doakes.png';
 import rita from '../images/team/rita.png';
 
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
 const imageMap = {
   dexter,
   masuka,
@@ -25,11 +28,13 @@ const TeamDetails = () => {
             className="bg-surface shadowPrim  rounded-[16px]
              border border-[#b0ada958] w-[300px] text-center "
           >
-            <img
+            <LazyLoadImage
               src={imageMap[member.image]}
               alt={member.name}
               className="rounded-t-[16px] w-full "
+              effect="blur"
             />
+
             <div className="py-7">
               <h2 className="Normal font-semibold mb-2">{member.name}</h2>
               <p className="text-[#8f8e8b] ">{member.position}</p>

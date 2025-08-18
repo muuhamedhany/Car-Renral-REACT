@@ -2,6 +2,9 @@ import React from 'react';
 import MainCar from '../images/hero/main-car.png';
 import HeroBg from '../images/hero/hero-bg.png';
 
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
 const Hero = () => {
   return (
     <>
@@ -33,7 +36,12 @@ const Hero = () => {
             src={HeroBg}
             className="absolute top-0 right-0 z-[-1] opacity-40"
           />
-          <img src={MainCar} className="relative right-10" />
+
+          <LazyLoadImage
+            src={MainCar}
+            className="relative right-10"
+            effect="blur"
+          />
         </div>
       </div>
     </>
