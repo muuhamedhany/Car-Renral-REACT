@@ -31,6 +31,10 @@ const TeamDetails = () => {
             <LazyLoadImage
               src={imageMap[member.image]}
               alt={member.name}
+              wrapperProps={{
+                // If you need to, you can tweak the effect transition using the wrapper style.
+                style: { transitionDelay: '500ms' },
+              }}
               className="rounded-t-[16px] w-full"
               effect="blur"
             />

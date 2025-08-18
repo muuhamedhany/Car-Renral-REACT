@@ -39,6 +39,10 @@ const Hero = () => {
 
           <LazyLoadImage
             src={MainCar}
+            wrapperProps={{
+              // If you need to, you can tweak the effect transition using the wrapper style.
+              style: { transitionDelay: '500ms' },
+            }}
             className="relative right-10"
             effect="blur"
           />

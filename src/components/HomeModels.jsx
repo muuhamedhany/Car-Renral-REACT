@@ -70,7 +70,11 @@ const HomeModels = () => {
             <LazyLoadImage
               src={active.img}
               alt={active.name}
-              className="p-6 min-w-[400px] max-h-[300px] "
+              wrapperProps={{
+                // If you need to, you can tweak the effect transition using the wrapper style.
+                style: { transitionDelay: '500ms' },
+              }}
+              className="p-6 min-w-[400px] max-h-[300px]"
               effect="blur"
             />
           </div>

@@ -10,7 +10,6 @@ import golf6Show from '../images/modelsShow/golf6Show.png';
 import passatShow from '../images/modelsShow/passatShow.png';
 import toyotaShow from '../images/modelsShow/toyotaShow.png';
 
-
 const imageMap = {
   audiShow,
   benzShow,
@@ -34,6 +33,10 @@ const VehicleModels = () => {
                 src={imageMap[car.imgShow]}
                 className=" rounded-t-[16px] w-full"
                 alt={car.name}
+                wrapperProps={{
+                  // If you need to, you can tweak the effect transition using the wrapper style.
+                  style: { transitionDelay: '500ms' },
+                }}
                 effect="blur"
               />
 
