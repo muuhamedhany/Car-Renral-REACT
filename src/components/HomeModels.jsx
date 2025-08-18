@@ -93,7 +93,7 @@ const HomeModels = () => {
                     i < Object.keys(active.specs).length - 1 ? 'border-b-2' : ''
                   } border-[#b0ada9]`}
                 >
-                  <h2 className="px-10 border-r-2 border-[#b0ada9]">{label}</h2>
+                  <h2 className="md:px-10 border-r-2 border-[#b0ada9]">{label}</h2>
                   <h2 className="px-10">{value}</h2>
                 </div>
               ))}

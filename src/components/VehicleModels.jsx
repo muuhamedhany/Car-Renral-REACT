@@ -32,7 +32,7 @@ const VehicleModels = () => {
                 alt={car.name}
               />
 
-              <div className="px-10 flex flex-col">
+              <div className="md:px-10 px-7 flex flex-col">
                 <div className="  py-3 flex justify-between items-center">
                   <div>
                     <h1 className="Normal font-semibold">{car.name}</h1>
@@ -44,7 +44,7 @@ const VehicleModels = () => {
                   </div>
                 </div>
 
-                <div className="px-5 m grid grid-cols-2 text-[#b0ada9]">
+                <div className="px-5 mt-5 grid grid-cols-2 text-[#b0ada9]">
                   <div className="flex flex-col gap-3">
                     <h1>{car.specs.Model}</h1>
                     <h1>{car.specs.Transmission}</h1>

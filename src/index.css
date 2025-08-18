@@ -8,6 +8,12 @@
   scrollbar-width: thin;
 }
 
+@media (max-width: 640px) {
+  * {
+    scrollbar-width: none;
+  }
+}
+
 :root {
   /* Theme variables (dark defaults) */
   --bg: #140604;
@@ -271,6 +277,14 @@
     padding: 0 2.5rem !important;
   }
 
+  @media (max-width: 640px) {
+    .cont {
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0 1rem !important;
+    }
+  }
+
   .Models-btn {
     font-size: 1.3rem;
     background-color: #ff4d31;
@@ -306,5 +320,20 @@
   }
   .Paragraph {
     font-size: 1rem;
+  }
+
+  @media (max-width: 640px) {
+    .Heading {
+      font-size: 2.2rem;
+    }
+    .Heading2 {
+      font-size: 1.8rem;
+    }
+    .Normal {
+      font-size: 1.2rem;
+    }
+    .Paragraph {
+      font-size: 1rem;
+    }
   }
 }

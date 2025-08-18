@@ -42,7 +42,7 @@ const ContactForm = () => {
               <div className="text-2xl shadowPrim bg-surface p-3 rounded-[50%]">
                 <MdEmail />
               </div>
-              <div>
+              <div className="text-start">
                 <h1>Email</h1>
                 <a className="secondary-text">carrental@mail.com</a>
               </div>
@@ -56,7 +56,7 @@ const ContactForm = () => {
               <div className="text-2xl shadowPrim bg-surface p-3 rounded-[50%]">
                 <GiPhone />
               </div>
-              <div>
+              <div className="text-start">
                 <h1>Phone</h1>
                 <a className="secondary-text">+1 (555) 444-3333</a>
               </div>
@@ -70,7 +70,7 @@ const ContactForm = () => {
               <div className="text-2xl shadowPrim bg-surface p-3 rounded-[50%]">
                 <FaMapLocationDot />
               </div>
-              <div>
+              <div className="text-start">
                 <h1>Address</h1>
                 <a className="secondary-text">Cairo, Egypt</a>
               </div>
