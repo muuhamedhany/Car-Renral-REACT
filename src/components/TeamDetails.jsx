@@ -33,7 +33,7 @@ const TeamDetails = () => {
               alt={member.name}
               wrapperProps={{
                 // If you need to, you can tweak the effect transition using the wrapper style.
-                style: { transitionDelay: '500ms' },
+                style: { transitionDelay: '1s' },
               }}
               className="rounded-t-[16px] w-full"
               effect="blur"

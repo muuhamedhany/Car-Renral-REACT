@@ -72,7 +72,7 @@ const HomeModels = () => {
               alt={active.name}
               wrapperProps={{
                 // If you need to, you can tweak the effect transition using the wrapper style.
-                style: { transitionDelay: '500ms' },
+                style: { transitionDelay: '1s' },
               }}
               className="p-6 min-w-[400px] max-h-[300px]"
               effect="blur"
