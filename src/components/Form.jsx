@@ -174,7 +174,7 @@ const Form = () => {
               <input
                 id="pickupDate"
                 type="date"
-                className="input-surface py-2 px-5 w-full rounded-[5px]"
+                className="input-surface py-2 px-5 md:w-full rounded-[5px]"
                 value={pickupDate}
                 onChange={(e) => setPickupDate(e.target.value)}
               />
