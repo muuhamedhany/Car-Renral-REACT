@@ -4,6 +4,8 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Models from './pages/Models';
 import Team from './pages/Team';
+import LoginIn from './pages/LogIn';
+import SignUp from './pages/SignUp';
 import Testimonials from './pages/Testimonials';
 import { Routes, Route } from 'react-router-dom';
 import RootLayout from './Layout/RootLayout';
@@ -15,6 +17,8 @@ const App = () => {
       <Routes>
         <Route path="/" element={<RootLayout />}>
           <Route path="/" element={<Home />} />
+          <Route path="/LogIn" element={<LoginIn />} />
+          <Route path="/SignUp" element={<SignUp />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/models" element={<Models />} />

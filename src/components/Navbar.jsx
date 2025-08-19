@@ -37,6 +37,49 @@ const links = [
   },
 ];
 
+const MobileLinks = [
+  {
+    id: 1,
+    name: 'Home',
+    href: '/',
+  },
+  {
+    id: 2,
+    name: 'About',
+    href: '/About',
+  },
+  {
+    id: 3,
+    name: 'Vehicle Model',
+    href: '/Models',
+  },
+  {
+    id: 4,
+    name: 'Testimonials',
+    href: '/Testimonials',
+  },
+  {
+    id: 5,
+    name: 'Our Team',
+    href: '/Team',
+  },
+  {
+    id: 6,
+    name: 'Contact',
+    href: '/Contact',
+  },
+  {
+    id: 7,
+    name: 'Log In',
+    href: '/LogIn',
+  },
+  {
+    id: 8,
+    name: 'Sign Up',
+    href: '/SignUp',
+  },
+];
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -76,10 +119,12 @@ const Navbar = () => {
               </div>
             </div>
             <div className="hidden md:flex md:items-center md:justify-between gap-4">
-              <a href="" className="primary-text">
-                Sign In
-              </a>
-              <button className="primary-btn-nav">Register</button>
+              <Link to="/LogIn" className="primary-text">
+                log In
+              </Link>
+              <Link to="/SignUp" className="primary-btn-nav">
+                Sign Up
+              </Link>
             </div>
 
             {/* Mobile navbar */}
@@ -95,12 +140,13 @@ const Navbar = () => {
                flex-col text-start gap-7 Normal
                bg-surface font-semibold p-10 `}
           >
-            {links.map((link) => {
+            {MobileLinks.map((link) => {
               return (
                 <Link
                   key={link.id}
                   to={link.href}
                   className="primary-text border-b-1"
+                  onClick={handleMobileLinks}
                 >
                   {link.name}
                 </Link>
