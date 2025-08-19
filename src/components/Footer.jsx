@@ -62,12 +62,8 @@ const Footer = () => {
               <h1 className="font-bold Normal pb-3">LEGAL</h1>
 
               <div className="flex flex-col gap-2">
-                <Link href="" className="primary-text">
-                  Privacy Policy
-                </Link>
-                <a href="" className="primary-text">
-                  Terms & Conditions
-                </a>
+                <a className="primary-text">Privacy Policy</a>
+                <a className="primary-text">Terms & Conditions</a>
               </div>
             </div>
           </div>
