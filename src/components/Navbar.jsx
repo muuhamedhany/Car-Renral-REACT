@@ -89,7 +89,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="blur-background p-2 md:pt-2 pt-5 w-full ">
+      <nav className="bg-surface  p-2 md:pt-2 pt-5 w-full ">
         <div className=" cont  w-full ">
           <div className="flex  items-center justify-between h-16">
             <div className="flex-shrink-0">
@@ -129,7 +129,7 @@ const Navbar = () => {
 
             {/* Mobile navbar */}
             <div
-              className="primary-text text-4xl md:hidden"
+              className="primary-text Heading md:hidden"
               onClick={handleMobileLinks}
             >
               {isOpen ? <CgClose /> : <HiMiniBars3BottomRight />}
@@ -138,7 +138,7 @@ const Navbar = () => {
           <div
             className={`${isOpen ? 'flex ' : 'hidden'}  md:hidden
                flex-col text-start gap-7 Normal
-               bg-surface font-semibold p-10 `}
+               bg-surface my-3 font-semibold p-5 `}
           >
             {MobileLinks.map((link) => {
               return (
