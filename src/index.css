@@ -303,7 +303,6 @@
 
   .feedback-card {
     background-color: var(--surface);
-    border: none;
     padding: 50px;
     border-radius: 16px;
     gap: 40px;

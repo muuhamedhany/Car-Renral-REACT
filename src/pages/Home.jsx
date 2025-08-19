@@ -13,12 +13,12 @@ const Home = () => {
   return (
     <>
       <Hero />
+      <HomeModels />
       <Form />
       <Plan />
-      <HomeModels />
       <Banner />
       <Choose />
-      <Feedback mb='50' />
+      <Feedback mb="50" />
       <FAQ />
       <AppStore />
     </>

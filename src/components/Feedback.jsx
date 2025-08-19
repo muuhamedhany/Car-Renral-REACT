@@ -18,7 +18,7 @@ const Feedback = (props) => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-20">
-          <div className="grid feedback-card shadowPrim">
+          <div className="grid feedback-card border border-[#b0ada958] shadowPrim">
             <p className="Normal font-[500]">
               "Let me tell ya, folks — we grabbed a sweet ride from this site,
               smooth as silk. Booking? A total breeze. Price? Practically a
@@ -34,7 +34,7 @@ const Feedback = (props) => {
             </div>
           </div>
 
-          <div className="grid feedback-card shadowPrim">
+          <div className="grid border border-[#b0ada958] feedback-card shadowPrim">
             <p className="Normal font-[500]">
               "I rented a car from this site. The process was clean, precise…
               almost surgical. No complications, no surprises. Just efficiency
