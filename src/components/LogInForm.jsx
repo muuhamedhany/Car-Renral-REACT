@@ -26,7 +26,7 @@ const LogInForm = () => {
             </div>
 
             <div className="flex flex-col gap-1">
-              <label htmlFor="password">Email</label>
+              <label htmlFor="password">Password</label>
               <input
                 className="input-surface"
                 type="password"

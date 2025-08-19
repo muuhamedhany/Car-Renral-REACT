@@ -29,7 +29,7 @@ const SignUpForm = () => {
                 className="input-surface"
                 type="email"
                 id="Email"
-                placeholder="Username"
+                placeholder="yourname@mail.com"
               />
             </div>
 
